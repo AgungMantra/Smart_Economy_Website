@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Economy Website</title>
+    <!-- Icon Website -->
+    <link rel="icon" type="image/png" sizes="128x128" href="img/logo.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/logo.png">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body class="font-ibmflexserif flex-col flex gap-6 bg-gray-100">
+    <!-- Navbar Section -->
+    <nav id="navbar"
+        class="navbar bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900 shadow-xl px-5 fixed w-screen z-50 top-0">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-amita">Smart
+                    Economy</span>
+            </a>
+            <button data-collapse-toggle="mega-menu-full" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="mega-menu-full" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div id="mega-menu-full"
+                class="items-center justify-between font-medium hidden w-full md:flex md:w-auto md:order-1">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#aboutus"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="#InfrastrukturDigital"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Infrastruktur
+                            Digital</a>
+                    </li>
+                    <li>
+                        <a href="#proyeksmartcity"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Proyek
+                            Dan Kerjasama</a>
+                    </li>
+                    <li>
+                        <a href="#contactus"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact
+                            Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="px-12 py-8 mt-16" id="home">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-12">
+            <div id="penjelasan-home">
+                <h1 id="typewriter"
+                    class="mb-4 text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
+
+                </h1>
+                <p class="mb-6 text-base md:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400">
+                    Smart economy adalah konsep ekonomi yang memanfaatkan teknologi canggih seperti Internet of Things
+                    (IoT), big data, kecerdasan buatan (AI), dan blockchain untuk meningkatkan efisiensi, produktivitas,
+                    dan inovasi.
+                </p>
+                <a href="#aboutus"
+                    class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    Learn more
+                    <svg class="w-4 h-4 ml-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+            <div id="img-home" class="flex justify-center ">
+                <img src="img/img2.png" class="w-full md:w-3/4 lg:w-1/2 h-auto rounded-lg " alt="Home Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Komponen Smart Economy -->
+    <section class="px-12 py-8 bg-white shadow-md">
+        <div class="container mx-auto">
+            <div class="items-center flex flex-col text-center">
+                <h1 class="text-2xl md:text-2xl font-bold mb-8" id="title-section">Komponen Smart Economy</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="komponen">
+                    <div
+                        class="cursor-pointer transition-all duration-500 hover:translate-y-2 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 p-4">
+                        <div>
+                            <span class="font-bold">Infrastruktur Digital</span>
+                            <p class="line-clamp-3">
+                                Ini mencakup jaringan internet cepat, data center, dan teknologi komunikasi yang
+                                memungkinkan konektivitas dan integrasi sistem secara efisien.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="cursor-pointer transition-all duration-500 hover:translate-y-2 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 p-4">
+                        <div>
+                            <span class="font-bold">Big Data dan Analitik</span>
+                            <p class="line-clamp-3">
+                                Pengumpulan, penyimpanan, dan analisis data dalam jumlah besar untuk mendapatkan wawasan
+                                yang dapat digunakan untuk pengambilan keputusan yang lebih baik dan perencanaan yang
+                                lebih efektif.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="cursor-pointer transition-all duration-500 hover:translate-y-2 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 p-4">
+                        <div>
+                            <span class="font-bold">Internet of Things (IoT)</span>
+                            <p class="line-clamp-3">
+                                Jaringan perangkat yang terhubung dan saling berkomunikasi, seperti sensor, kendaraan
+                                pintar, dan perangkat rumah tangga pintar, yang membantu mengumpulkan data dan
+                                otomatisasi proses.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="cursor-pointer transition-all duration-500 hover:translate-y-2 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 p-4">
+                        <div>
+                            <span class="font-bold">Blockchain</span>
+                            <p class="line-clamp-3">
+                                Teknologi yang menyediakan cara yang aman dan transparan untuk merekam transaksi,
+                                mengurangi risiko penipuan, dan meningkatkan kepercayaan dalam ekonomi digital.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="cursor-pointer transition-all duration-500 hover:translate-y-2 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 p-4">
+                        <div>
+                            <span class="font-bold">E-commerce dan Digital Payments</span>
+                            <p class="line-clamp-3">
+                                Platform perdagangan online dan sistem pembayaran digital yang memfasilitasi transaksi
+                                yang cepat, aman, dan nyaman antara konsumen dan bisnis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="cursor-pointer transition-all duration-500 hover:translate-y-2 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 p-4">
+                        <div>
+                            <span class="font-bold">Ekonomi Berbagi (Sharing Economy)</span>
+                            <p class="line-clamp-3">
+                                Model ekonomi di mana aset atau layanan dibagikan antara individu, sering kali melalui
+                                platform digital, seperti ride-sharing dan peer-to-peer accommodation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Smart Economy Section -->
+    <section class="px-12 py-8" id="aboutus" style="mask-image: linear-gradient(
+        to bottom,
+        rgba(255, 0, 0, 0) 0%,
+        rgb(69, 211, 22) 12.5%,
+        rgb(65, 22, 221) 87.5%,
+        rgba(20, 225, 222, 0) 100%
+      );">
+        <div class="flex-col flex items-center gap-8">
+            <h1 class="text-2xl md:text-3xl font-bold" id="title-section">Smart Economy</h1>
+            <div class="flex flex-col justify-center gap-8 w-full">
+                <!-- Latar Belakang -->
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <img id="latbar-img" src="img/img3-removebg-preview.png" alt=""
+                            class="w-full md:w-1/3 lg:w-1/4 mb-4 md:mb-0">
+                        <div class="w-full md:w-2/3 lg:w-3/4" id="penjelasan-about">
+                            <h1 class="text-xl md:text-2xl">Latar Belakang</h1>
+                            <p
+                                class="mb-6 text-base md:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400">
+                                Smart economy muncul dari kemajuan teknologi informasi dan komunikasi (TIK) seperti IoT,
+                                big data, dan AI, yang membuka peluang besar untuk meningkatkan efisiensi dan
+                                produktivitas. Globalisasi ekonomi memperluas pasar dan meningkatkan persaingan,
+                                sementara urbanisasi yang cepat dan peningkatan populasi menuntut pengelolaan sumber
+                                daya dan infrastruktur yang lebih efisien. Tekanan lingkungan seperti perubahan iklim
+                                mendorong kebutuhan untuk menciptakan ekonomi yang berkelanjutan dan ramah lingkungan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Tujuan Dan Manfaat Smart Economy -->
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <div class="w-full md:w-2/3 lg:w-3/4" id="latbar-img">
+                            <h1 class="text-xl md:text-2xl">Tujuan Dan Manfaat Smart Economy</h1>
+                            <p
+                                class="mb-6 text-base md:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400">
+                                Tujuan utama smart economy adalah meningkatkan efisiensi dan produktivitas melalui
+                                teknologi, mengurangi biaya operasional, dan meningkatkan kualitas produk dan layanan.
+                                Manfaat smart economy meliputi peningkatan efisiensi operasional dan produktivitas,
+                                pengambilan keputusan yang lebih baik berkat data real-time, pertumbuhan ekonomi melalui
+                                penciptaan lapangan kerja dan peningkatan PDB, layanan publik yang lebih responsif.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Visi Misi -->
+        <div class="flex-col flex items-center gap-8">
+            <h1 class="text-2xl md:text-3xl font-bold" id="title-section">Visi Misi</h1>
+            <div id="visimisi" class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+
+                <!-- Visi -->
+                <div
+                    class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Visi
+                    </h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                        1. Menciptakan lingkungan ekonomi di mana teknologi dan data digunakan untuk mengoptimalkan
+                        penggunaan sumber daya, meningkatkan produktivitas, dan mengurangi pemborosan. <br>
+                        2. Mendorong inovasi melalui adopsi teknologi terbaru seperti AI, IoT, dan blockchain untuk
+                        menciptakan produk, layanan, dan model bisnis baru. <br>
+                        3. Membangun ekonomi yang lebih ramah lingkungan dan berkelanjutan dengan mengurangi jejak
+                        karbon dan mempromosikan penggunaan energi terbarukan. <br>
+
+                    </p>
+                </div>
+
+                <!-- Misi -->
+                <div
+                    class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Misi
+                    </h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                        1. Membangun dan mengembangkan infrastruktur digital yang kuat dan andal untuk mendukung
+                        konektivitas dan integrasi sistem. <br>
+                        2. Menggunakan data besar dan analitik untuk mendukung pengambilan keputusan yang lebih baik dan
+                        meningkatkan efisiensi operasional. <br>
+                        3. Memfasilitasi penelitian dan pengembangan teknologi baru untuk memacu inovasi dan menciptakan
+                        peluang ekonomi baru. <br>
+
+                    </p>
+                </div>
+
+            </div>
+            <!-- Banner Section -->
+            <div id="default-carousel " class="banner relative w-full" data-carousel="slide" style="mask-image: linear-gradient(
+                        to right,
+                        rgba(255, 0, 0, 0) 0%,
+                        rgb(69, 211, 22) 12.5%,
+                        rgb(65, 22, 221) 87.5%,
+                        rgba(20, 225, 222, 0) 100%
+                      );">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="img/banner1.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="img/banner2.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="img/banner3.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                </div>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-f4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Infrastruktur-->
+    <section id="InfrastrukturDigital" class="px-12 py-8 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-center mb-12" id="title-section">Infrastruktur Digital</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12" id="title-section">
+
+                <!-- Internet of Things (IoT) Section -->
+                <div class="bg-white p-6 rounded-lg shadow-md gap-4 flex flex-col">
+                    <h3 class="text-2xl font-semibold mb-4">Internet of Things (IoT)</h3>
+                    <p class="mb-4">Penjelasan tentang bagaimana IoT digunakan untuk meningkatkan efisiensi ekonomi
+                        dalam pengelolaan energi, transportasi, dan infrastruktur.</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Pengelolaan Energi: Menggunakan sensor untuk memonitor penggunaan energi secara real-time.
+                        </li>
+                        <li>Transportasi: Mengoptimalkan sistem transportasi melalui pemantauan lalu lintas.</li>
+                        <li>Infrastruktur: Memantau kondisi infrastruktur untuk perbaikan proaktif.</li>
+                    </ul>
+                    <a href="#"
+                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        Learn more
+                        <svg class="w-4 h-4 ml-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+
+
+                <!-- Teknologi Blockchain Section -->
+                <div class="bg-white p-6 rounded-lg shadow-md gap-4 flex flex-col">
+                    <h3 class="text-2xl font-semibold mb-4">Teknologi Blockchain</h3>
+                    <p class="mb-4">Bagaimana teknologi blockchain digunakan untuk transparansi dan keamanan transaksi
+                        ekonomi.</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Transparansi Transaksi: Membuat transaksi dapat diaudit dan mengurangi risiko penipuan.</li>
+                        <li>Keamanan Data: Menyimpan data dengan aman di jaringan yang terenkripsi dan terdistribusi.
+                        </li>
+                        <li>Kontrak Pintar: Mengotomatiskan pembayaran dan verifikasi identitas.</li>
+                    </ul>
+                    <a href="#"
+                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        Learn more
+                        <svg class="w-4 h-4 ml-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- Proyek Smart Economy-->
+<section class="px-4 py-8" id="proyeksmartcity" style="mask-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0) 0%,
+    rgb(69, 211, 22) 12.5%,
+    rgb(65, 22, 221) 87.5%,
+    rgba(20, 225, 222, 0) 100%
+  );">
+    <div class="container mx-auto">
+        <div class="flex flex-col items-center text-center gap-12">
+            <h1 class="text-2xl md:text-3xl font-bold" id="title-section">Proyek Smart Economy</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="img-home">
+                <!-- Proyek 1 -->
+                <div
+                    class="max-w-sm w-full p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <img class="w-full h-40 object-cover rounded-t-lg" alt="Card Image" src="img/smartcityimg1.jpg">
+                    <div class="p-4">
+                        <h2 class="text-xl font-semibold">Gerakan 100 Smart City</h2>
+                        <p class="text-gray-600">Inisiatif ini diluncurkan oleh Kementerian Komunikasi dan Informatika (Kemenkominfo) bekerja sama dengan beberapa kementerian lainnya untuk mengembangkan 100 kota pintar di Indonesia.</p>
+                        <div class="flex justify-between items-center mt-4">
+                            <a href="https://www.kominfo.go.id/content/detail/11656/langkah-menuju-100-smart-city/0/sorotan_media"
+                                target="_blank"
+                                class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 2 -->
+                <div
+                    class="max-w-sm w-full p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <img class="w-full h-40 object-cover rounded-t-lg" alt="Card Image" src="img/smartcityimg3.jpg">
+                    <div class="p-4">
+                        <h2 class="text-xl font-semibold">Jakarta Smart City</h2>
+                        <p class="text-gray-600">Program pemerintah DKI Jakarta yang bertujuan menjadikan Jakarta sebagai kota pintar dengan memanfaatkan teknologi informasi dan komunikasi.</p>
+                        <div class="flex justify-between items-center mt-4">
+                            <a href="https://smartcity.jakarta.go.id/id/" target="_blank"
+                                class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 3 -->
+                <div
+                    class="max-w-sm w-full p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <img class="w-full h-40 object-cover rounded-t-lg" alt="Card Image" src="img/smartcityimg2.jpg">
+                    <div class="p-4">
+                        <h2 class="text-xl font-semibold">Surabaya Smart City</h2>
+                        <p class="text-gray-600">Program yang dijalankan oleh pemerintah kota Surabaya untuk mengintegrasikan teknologi dalam pengelolaan kota.</p>
+                        <div class="flex justify-between items-center mt-4">
+                            <a href="https://surabaya.go.id/id/berita/47816/pelajari-smart-city-pemerintah"
+                                target="_blank"
+                                class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Kerjasama Section -->
+            <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg py-6 sm:py-8 lg:py-12 w-full" id="komponen">
+                <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                    <div class="mb-4 flex flex-col sm:flex-row items-center justify-between gap-8 sm:mb-8 md:mb-12">
+                        <div class="flex items-center gap-4 sm:gap-12">
+                            <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Kerjasama</h2>
+                            <p class="hidden sm:block max-w-screen-sm text-gray-500 dark:text-gray-300">
+                                Berikut merupakan beberapa contoh beberapa bidang industri yang bekerja sama dengan pemerintah:
+                            </p>
+                        </div>
+                        <a href="#"
+                            class="inline-block rounded-lg border bg-white dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">
+                            More
+                        </a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-6 xl:gap-8 px-4">
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/640px-Building92microsoft.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Microsoft (Industri Teknologi)</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                        <img src="https://www.bernas.id/wp-content/uploads/2022/03/mengenal-perusahaan-tesla-inc-sejarah-industri-otomotif--listrik-asal-amerika-84.webp" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tesla (Industri Transportasi)</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                        <img src="https://i.insider.com/6287b4248641770019bd795e?width=1136&format=jpeg" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Raytheon (Industri Keamanan)</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="https://www.levelset.com/wp-content/uploads/2020/08/Skanska-sign-on-construction-site-e1597418732595.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Skanska (Industri Konstruksi dan Infrastruktur)</span>
+                    </a>
+                    <!-- image - end -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Us Section -->
+    <section class="relative bg-white dark:bg-gray-900 py-6" id="contactus">
+        <div class="absolute inset-0">
+            <img src="img/home_img.jpg" alt="Background Image"
+                class="w-full h-full object-cover opacity-30 dark:opacity-50">
+        </div>
+        <div class="relative py-8 lg:py-16 px-4 mx-auto max-w-screen-md bg-white bg-opacity-90 dark:bg-gray-900 dark:bg-opacity-90 rounded-lg shadow-lg"
+            id="title-section">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us
+            </h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl"></p>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                        email</label>
+                    <div class="relative">
+                        <input type="email" id="email"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 pl-10 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                            placeholder="Masukkan Email Anda" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                        Name</label>
+                    <div class="relative">
+                        <input type="text" id="subject"
+                            class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 pl-10 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                            placeholder="Masukkan Nama Anda" required>
+                    </div>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                        message</label>
+                    <textarea id="message" rows="6"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                        placeholder="Leave a comment..."></textarea>
+                </div>
+                <button type="submit"
+                    class="py-3 px-5 bg-blue-500 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
+                    message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="" class="flex items-center mb-4 sm:mb-0 rtl:space-x-reverse">
+
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-amita">Smart
+                        Economy</span>
+                </a>
+                <ul
+                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#home" class="hover:underline me-4 md:me-6">Home</a>
+                    </li>
+                    <li>
+                        <a href="#aboutus" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="#InfrastrukturDigital" class="hover:underline me-4 md:me-6">Infrastruktur Digital</a>
+                    </li>
+                    <li>
+                        <a href="#proyeksmartcity" class="hover:underline me-4 md:me-6">Proyek Dan Kerjasama</a>
+                    </li>
+                    <li>
+                        <a href="#contactus" class="hover:underline">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© Created By <a href=""
+                    class="hover:underline">Agung Mantra</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
